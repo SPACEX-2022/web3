@@ -11,7 +11,7 @@ const Footer = () => {
                   <img src={logo} alt="logo" className="w-32" />
               </div>
               <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-                  {menu.map(m => <p className="text-white text-base text-center mx-2 cursor-pointer">{m}</p>)}
+                  {menu.map(m => <p key={m} className="text-white text-base text-center mx-2 cursor-pointer">{m}</p>)}
               </div>
           </div>
 

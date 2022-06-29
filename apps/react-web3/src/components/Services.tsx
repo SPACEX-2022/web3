@@ -30,34 +30,34 @@ const Services = () => {
       <div className="flex mf:flex-row flex-col items-center justify-between md:p-20 py-12 px-4">
         <div className="flex-1 flex flex-col justify-start items-start">
           <h1 className="text-white text-3xl sm:text-5xl py-2 text-gradient ">
-            Services that we
+            我们提供的服务
             <br />
-            continue to improve
+            持续改进中
           </h1>
           <p className="text-left my-2 text-white font-light md:w-9/12 w-11/12 text-base">
-            The best choice for buying and selling your crypto assets, with the
-            various super friendly services we offer
+            购买和出售您的加密资产的最佳选择，
+            我们提供的各种超级友好的服务
           </p>
         </div>
 
         <div className="flex-1 flex flex-col justify-start items-center">
           <ServiceCard
             color="bg-[#2952E3]"
-            title="Security gurantee"
+            title="安全保障"
             icon={<BsShieldFillCheck fontSize={21} className="text-white" />}
-            subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+            subtitle="安全有保障。我们始终保持隐私并保持我们产品的质量"
           />
           <ServiceCard
             color="bg-[#8945F8]"
-            title="Best exchange rates"
+            title="最佳汇率"
             icon={<BiSearchAlt fontSize={21} className="text-white" />}
-            subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+            subtitle="安全有保障。我们始终保持隐私并保持我们产品的质量"
           />
           <ServiceCard
             color="bg-[#F84550]"
-            title="Fastest transactions"
+            title="最快的交易"
             icon={<RiHeart2Fill fontSize={21} className="text-white" />}
-            subtitle="Security is guranteed. We always maintain privacy and maintain the quality of our products"
+            subtitle="安全有保障。我们始终保持隐私并保持我们产品的质量"
           />
         </div>
       </div>
